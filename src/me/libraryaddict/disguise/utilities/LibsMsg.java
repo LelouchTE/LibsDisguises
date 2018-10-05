@@ -161,7 +161,11 @@ public enum LibsMsg {
             "There is a update ready to be downloaded! You are using " + ChatColor.RED + "v%s" + ChatColor.DARK_RED +
             ", the new version is " + ChatColor.RED + "%s" + ChatColor.DARK_RED + "!"),
     VIEW_SELF_ON(ChatColor.GREEN + "Toggled viewing own disguise on!"),
-    VIEW_SELF_OFF(ChatColor.GREEN + "Toggled viewing own disguise off!");
+    VIEW_SELF_OFF(ChatColor.GREEN + "Toggled viewing own disguise off!"),
+    DLIST_PLAYERS(ChatColor.AQUA + "%s" + ChatColor.DARK_AQUA
+        + " disguised players:%s"),
+    DLIST_ENTITIES(ChatColor.DARK_AQUA + "Also " + ChatColor.AQUA
+        + "%s" + ChatColor.DARK_AQUA + " other diguised entities.");
 
     private String string;
 

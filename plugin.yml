@@ -69,6 +69,10 @@ commands:
       aliases: [dmodifyentity, dmodentity]
       permission: libsdisguises.seecmd.disguisemodifyentity
       description: Modify a disguise by right clicking them
+    disguiselist:
+      aliases: [dlist]
+      permission: libsdisguises.seecmd.disguiselist
+      description: Return a list of all disguised entities
 
 permissions:
     libsdisguises.reload:
@@ -97,6 +101,7 @@ permissions:
          libsdisguises.seecmd.disguisemodifyplayer: true
          libsdisguises.seecmd.disguisemodifyradius: true
          libsdisguises.seecmd.disguisemodifyentity: true
+         libsdisguises.seecmd.disguiselist: true
     libsdisguises.seecmd.libsdisguises:
       description: See the /libsdisguises command in tab-completion
     libsdisguises.seecmd.disguiseviewself:
@@ -129,3 +134,5 @@ permissions:
       description: See the /disguisemodifyradius command in tab-completion
     libsdisguises.seecmd.disguisemodifyentity:
       description: See the /disguisemodifyentity command in tab-completion
+    libsdisguises.seecmd.disguiselist:
+      description: See the /disguiselist command in tab-completion
